@@ -216,3 +216,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Licensed data — WRDS/CRSP-Compustat cannot be redistributed
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Unpublished manuscript safety net
+*.pdf
+*.tex
+manuscript/
